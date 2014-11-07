@@ -1,5 +1,6 @@
 get '/' do
   # Look in app/views/index.erb
+  # @tweets = TwitterUser.fetch_tweets!
   erb :'/tweets/new'
 end
 
